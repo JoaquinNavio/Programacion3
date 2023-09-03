@@ -18,6 +18,7 @@ public class Persona implements Serializable {
     private Long id;
     private String nombre;
     private String apellido;
+    private int edad;
 
     @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "domicilio:id")
@@ -26,14 +27,4 @@ public class Persona implements Serializable {
 
 
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long sas;
-    private String nas;
-    private String apsddo;
-
-    @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
-    @JoinColumn(name = "domicilio:id")
-
-    private Domicilio dosdlio;
 }
