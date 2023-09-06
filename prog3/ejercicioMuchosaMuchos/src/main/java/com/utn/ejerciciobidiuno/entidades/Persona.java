@@ -4,7 +4,9 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Data
@@ -19,10 +21,18 @@ public class Persona extends BaseEntidad {
     private String apellido;
     private int edad;
 
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true,fetch = FetchType.EAGER)
-    @JoinColumn(name = "persona_id")
+    @ManyToMany(cascade = {
+            CascadeType.PERSIST,
+            CascadeType.MERGE
+    })
+    @JoinTable(name = "persona_domicilio",
+            joinColumns = @JoinColumn(name = "persona_id"),
+            inverseJoinColumns = @JoinColumn(name = "domicilio_id"))
+    @EqualsAndHashCode.Exclude
     @Builder.Default
-    private List<Domicilio> domicilios=new ArrayList<>();
+
+
+    private Set<Domicilio> domicilios= new HashSet<>();
 
 
 

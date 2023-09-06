@@ -3,6 +3,9 @@ package com.utn.ejerciciobidiuno.entidades;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
 @Data
 @AllArgsConstructor
@@ -13,7 +16,8 @@ public class Domicilio extends BaseEntidad {
 
     private String calle;
     private int numero;
-    @ManyToOne
-    @JoinColumn(name = "persona:id")
-    private Persona persona;
+
+    @ManyToMany(mappedBy = "domicilios")
+    @Builder.Default
+    private Set<Persona> personas= new HashSet<>();
 }
