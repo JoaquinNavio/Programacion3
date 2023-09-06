@@ -24,6 +24,10 @@ public class Persona extends BaseEntidad {
     @Builder.Default
     private List<Domicilio> domicilios=new ArrayList<>();
 
+
+
+
+
     public void agregarDomicilio(Domicilio dom){
         domicilios.add(dom);
     }
