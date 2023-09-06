@@ -17,6 +17,4 @@ public class Domicilio extends BaseEntidad {
     private String calle;
     private int numero;
 
-    @OneToOne(mappedBy = "domicilio")
-    private Persona persona;
 }

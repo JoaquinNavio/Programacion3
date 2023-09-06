@@ -27,61 +27,15 @@ public class EjerciciobidiunoApplication {
 		return args -> {
 			System.out.println("-----------------ESTOY FUNCIONANDO---------");
 
+			Domicilio dom1= Domicilio.builder().calle("calle1").numero(123).build();
+			Domicilio dom2= Domicilio.builder().calle("calle2").numero(456).build();
 
-			Domicilio domicilio = Domicilio.builder()
-					.calle("Suipacha")
-					.numero(30)
-					.build();
-			Persona persona = Persona.builder()
-					.nombre("Juan")
-					.apellido("Pérez")
-					.edad(30)
-					.build();
-			// Asocio el domicilio
-			persona.setDomicilio(domicilio);
-			// Asocio la persona
-			domicilio.setPersona(persona);
+			Persona persona= Persona.builder().nombre("pepe").apellido("peron").edad(18).build();
+			persona.agregarDomicilio(dom1);
+			persona.agregarDomicilio(dom2);
+
 			personaRepository.save(persona);
-
-			Domicilio domicilio2 = Domicilio.builder()
-					.calle("Suipacha")
-					.numero(30)
-					.build();
-			Persona persona2 = Persona.builder()
-					.nombre("persona2")
-					.apellido("Pérez")
-					.edad(30)
-					.build();
-			persona2.setDomicilio(domicilio2);
-			domicilio.setPersona(persona2);
-			personaRepository.save(persona2);
-			System.out.println(persona2.getApellido()==persona.getApellido());
-			// Guardar el objeto Persona en la base de datos
-
-			// Recuperar el objeto Persona desde la base de datos
-
-
-				Persona personaRecuperada = personaRepository.findById(persona.getId()).orElse(null);
-				if (personaRecuperada != null) {
-					System.out.println("Nombre: " + personaRecuperada.getNombre());
-					System.out.println("Apellido: " + personaRecuperada.getApellido());
-					System.out.println("Edad: " + personaRecuperada.getEdad());
-					System.out.println("Calle : " + personaRecuperada.getDomicilio().getCalle());
-					System.out.println("Número :" + personaRecuperada.getDomicilio().getNumero());
-				}
-
-				System.out.println("......  Muestro la bidireccionalidad.......");
-				// Recuperar el objeto Persona desde la base de datos
-				Domicilio domicilioRecuperado = domicilioRepository.findById(persona.getId()).orElse(null);
-				if (domicilioRecuperado!= null) {
-					System.out.println("Nombre: " + domicilioRecuperado.getPersona().getNombre());
-					System.out.println("Apellido: " + domicilioRecuperado.getPersona().getApellido());
-					System.out.println("Edad: " + domicilioRecuperado.getPersona().getEdad());
-					System.out.println("Calle : " + domicilioRecuperado.getCalle());
-					System.out.println("Número :" + domicilioRecuperado.getNumero());
-				}
-
-
+			persona.mostrarDomicilio();
 		};
 
 	}

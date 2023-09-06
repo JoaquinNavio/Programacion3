@@ -1,10 +1,10 @@
 package com.utn.ejerciciobidiuno.entidades;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data
@@ -12,14 +12,25 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 @Table(name = "persona")
+@EqualsAndHashCode(callSuper=false)
 public class Persona extends BaseEntidad {
     @Column(name = "nombre")
     private String nombre;
     private String apellido;
     private int edad;
 
-    @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
-    @JoinColumn(name = "domicilio:id")
-    private Domicilio domicilio;
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true,fetch = FetchType.EAGER)
+    @JoinColumn(name = "persona_id")
+    @Builder.Default
+    private List<Domicilio> domicilios=new ArrayList<>();
 
+    public void agregarDomicilio(Domicilio dom){
+        domicilios.add(dom);
+    }
+    public void mostrarDomicilio(){
+        System.out.println("Domicilios de: "+nombre+" "+apellido);
+        for (Domicilio dom:domicilios) {
+            System.out.println(dom.getCalle()+" "+dom.getNumero()+" id:"+dom.getId());
+        }
+    }
 }
