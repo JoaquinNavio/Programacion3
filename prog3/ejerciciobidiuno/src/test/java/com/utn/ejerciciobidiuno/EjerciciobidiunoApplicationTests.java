@@ -8,6 +8,7 @@ class EjerciciobidiunoApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("ANDO ANDO ANDO DOMINANDO");
 	}
 
 }
