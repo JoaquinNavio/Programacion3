@@ -1,6 +1,6 @@
-package com.utn.muchoamuchos.repositorios;
+package com.utn.integrador.repositorios;
 
-import com.utn.muchoamuchos.entidades.Persona;
+import com.utn.integrador.entidades.Persona;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PersonaRepository extends JpaRepository<Persona,Long> {

@@ -1,4 +1,4 @@
-package com.utn.muchoamuchos.entidades;
+package com.utn.integrador.entidades;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

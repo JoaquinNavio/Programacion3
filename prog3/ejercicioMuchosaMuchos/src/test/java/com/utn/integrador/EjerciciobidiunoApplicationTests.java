@@ -1,4 +1,4 @@
-package com.utn.muchoamuchos;
+package com.utn.integrador;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

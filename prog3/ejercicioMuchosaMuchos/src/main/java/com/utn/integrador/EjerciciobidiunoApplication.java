@@ -1,15 +1,13 @@
-package com.utn.muchoamuchos;
-import com.utn.muchoamuchos.entidades.Domicilio;
-import com.utn.muchoamuchos.entidades.Persona;
-import com.utn.muchoamuchos.repositorios.DomicilioRepository;
-import com.utn.muchoamuchos.repositorios.PersonaRepository;
+package com.utn.integrador;
+import com.utn.integrador.entidades.Domicilio;
+import com.utn.integrador.entidades.Persona;
+import com.utn.integrador.repositorios.DomicilioRepository;
+import com.utn.integrador.repositorios.PersonaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-
-import java.util.List;
 
 @SpringBootApplication
 public class EjerciciobidiunoApplication {
