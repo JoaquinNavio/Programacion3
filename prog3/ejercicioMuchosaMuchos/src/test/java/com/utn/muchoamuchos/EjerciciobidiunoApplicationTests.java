@@ -1,4 +1,4 @@
-package com.utn.ejerciciobidiuno;
+package com.utn.muchoamuchos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

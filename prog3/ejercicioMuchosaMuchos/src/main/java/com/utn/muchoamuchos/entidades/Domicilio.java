@@ -1,4 +1,4 @@
-package com.utn.ejerciciobidiuno.entidades;
+package com.utn.muchoamuchos.entidades;
 
 import jakarta.persistence.*;
 import lombok.*;
