@@ -1,9 +1,9 @@
 package com.utn.EjercicioIntegrador1.repositorios;
 
-import com.utn.EjercicioIntegrador1.entidades.Factura;
+import com.utn.EjercicioIntegrador1.entidades.ConfiguracionGeneral;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface FacturaRepository extends JpaRepository<Factura,Long> {
+public interface ConfiguracionGeneralRepository extends JpaRepository<ConfiguracionGeneral,Long> {
 }

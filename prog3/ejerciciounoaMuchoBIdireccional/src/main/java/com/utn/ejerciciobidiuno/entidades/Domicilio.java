@@ -13,6 +13,7 @@ public class Domicilio extends BaseEntidad {
 
     private String calle;
     private int numero;
+
     @ManyToOne
     @JoinColumn(name = "persona:id")
     private Persona persona;

@@ -1,23 +1,18 @@
 package com.utn.EjercicioIntegrador1.entidades;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.OneToOne;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.Date;
 
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Factura  extends BaseEntidad{
-    private String fecha;
-    private int numero;
-    private double descuento;
-    private String formaPago;
-    private int total;
+public class ConfiguracionGeneral extends BaseEntidad {
+    private int cantidadCocineros;
+    private String emailEmpresa;
+    private String tokerMercadoPago;
 }

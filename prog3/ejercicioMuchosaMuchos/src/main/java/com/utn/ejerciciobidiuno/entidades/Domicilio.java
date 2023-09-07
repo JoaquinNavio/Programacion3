@@ -1,4 +1,4 @@
-package com.utn.integrador.entidades;
+package com.utn.ejerciciobidiuno.entidades;
 
 import jakarta.persistence.*;
 import lombok.*;

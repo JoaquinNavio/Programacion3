@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8093ce13-1929-41b8-a68e-d61c4e37c949" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/BaseEntidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/test/java/com/utn/ejerciciobidiuno/repositorios/DomicilioInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/test/java/com/utn/ejerciciobidiuno/repositorios/PersonaInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/EjercicioIntegrador1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/EjercicioIntegrador1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/DetallePedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/DetallePedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Domicilio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Domicilio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Factura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Rubro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Rubro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/entidades/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/DetallePedidoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/DetallePedidoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/DomicilioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/DomicilioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/FacturaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/FacturaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/PedidoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/PedidoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/ProductoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/ProductoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/RubroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/RubroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/java/com/utn/EjercicioIntegrador1/repositorios/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioIntegrador1/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/main/java/com/utn/integrador/EjerciciobidiunoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/main/java/com/utn/ejerciciobidiuno/EjerciciobidiunoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/main/java/com/utn/integrador/entidades/BaseEntidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/main/java/com/utn/ejerciciobidiuno/entidades/BaseEntidad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/main/java/com/utn/integrador/entidades/Domicilio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/main/java/com/utn/ejerciciobidiuno/entidades/Domicilio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/main/java/com/utn/integrador/entidades/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/main/java/com/utn/ejerciciobidiuno/entidades/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/main/java/com/utn/integrador/repositorios/DomicilioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/main/java/com/utn/ejerciciobidiuno/repositorios/DomicilioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/main/java/com/utn/integrador/repositorios/PersonaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/main/java/com/utn/ejerciciobidiuno/repositorios/PersonaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/test/java/com/utn/integrador/EjerciciobidiunoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/test/java/com/utn/ejerciciobidiuno/EjerciciobidiunoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/test/java/com/utn/integrador/entidades/BaseEntidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/test/java/com/utn/ejerciciobidiuno/entidades/BaseEntidad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/test/java/com/utn/integrador/entidades/Domicilio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/test/java/com/utn/ejerciciobidiuno/entidades/Domicilio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/test/java/com/utn/integrador/entidades/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/test/java/com/utn/ejerciciobidiuno/entidades/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/test/java/com/utn/integrador/repositorios/DomicilioInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicioMuchosaMuchos/src/test/java/com/utn/integrador/repositorios/PersonaInterface.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2V2L9wF5jgQ46x3ukgsYGrwGZRg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/joaco/OneDrive/Escritorio/Tareas/Programacion3/prog3/ejer02"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8093ce13-1929-41b8-a68e-d61c4e37c949" name="Changes" comment="" />
+      <created>1694029080834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694029080834</updated>
+    </task>
+    <servers />
+  </component>
+</project>

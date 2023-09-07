@@ -1,8 +1,8 @@
-package com.utn.integrador;
-import com.utn.integrador.entidades.Domicilio;
-import com.utn.integrador.entidades.Persona;
-import com.utn.integrador.repositorios.DomicilioRepository;
-import com.utn.integrador.repositorios.PersonaRepository;
+package com.utn.ejerciciobidiuno;
+import com.utn.ejerciciobidiuno.entidades.Domicilio;
+import com.utn.ejerciciobidiuno.entidades.Persona;
+import com.utn.ejerciciobidiuno.repositorios.DomicilioRepository;
+import com.utn.ejerciciobidiuno.repositorios.PersonaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
