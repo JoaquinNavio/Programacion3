@@ -22,6 +22,5 @@ public class Domicilio implements Serializable {
 
 
     @OneToOne(mappedBy = "domicilio")
-
     private Persona persona;
 }

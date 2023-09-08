@@ -22,7 +22,7 @@ public class Ejer02Application {
 	}
 
 	@Bean
-	CommandLineRunner init(PersonaRepository personaRepo, DomicilioRepository domicilioRepo) {
+	CommandLineRunner init() {
 		return args -> {
 			System.out.println("-----------------ESTOY FUNCIONANDO---------");
 

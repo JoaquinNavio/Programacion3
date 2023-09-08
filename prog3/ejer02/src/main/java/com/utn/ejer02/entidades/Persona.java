@@ -22,7 +22,6 @@ public class Persona implements Serializable {
 
     @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "domicilio:id")
-    
     private Domicilio domicilio;
 
 
