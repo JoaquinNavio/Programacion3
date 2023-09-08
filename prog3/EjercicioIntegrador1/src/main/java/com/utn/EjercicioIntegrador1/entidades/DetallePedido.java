@@ -1,13 +1,13 @@
 package com.utn.EjercicioIntegrador1.entidades;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data
@@ -21,5 +21,6 @@ public class DetallePedido  extends BaseEntidad{
     @ManyToOne
     @JoinColumn(name = "producto_id")
     private Producto producto;
+
 
 }

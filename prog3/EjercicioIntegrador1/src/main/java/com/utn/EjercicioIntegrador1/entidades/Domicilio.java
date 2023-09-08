@@ -17,7 +17,4 @@ public class Domicilio  extends BaseEntidad{
     private String calle;
     private String numero;
     private String localidad;
-    @ManyToOne
-    @JoinColumn(name = "Cliente_id")
-    private Cliente cliente;
 }

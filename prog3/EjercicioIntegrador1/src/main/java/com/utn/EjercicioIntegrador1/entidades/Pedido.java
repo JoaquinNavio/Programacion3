@@ -17,9 +17,20 @@ import java.util.List;
 @Builder
 public class Pedido  extends BaseEntidad{
     private String fecha;
-    private String estado;
+
+    @Enumerated(EnumType.STRING)
+    private Estado estado;
+    public enum Estado{
+        INICIADO, PREPARACION, ENTREGADO;
+    }
+
     private String horaEstimadaEntrega;
-    private String tipoEnvio;
+
+    @Enumerated(EnumType.STRING)
+    private TipoEnvio tipoEnvio;
+    public enum TipoEnvio{
+        DELIVERY, RETIRA;
+    }
     private double total;
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true,fetch = FetchType.EAGER)

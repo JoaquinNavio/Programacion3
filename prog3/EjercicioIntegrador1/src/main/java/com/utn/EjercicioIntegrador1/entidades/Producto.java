@@ -15,7 +15,6 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 public class Producto  extends BaseEntidad{
-    private String tipo;
     private int tiempoEstimadoCocina;
     private String denominacion;
     private double precioVenta;
@@ -26,8 +25,9 @@ public class Producto  extends BaseEntidad{
     private String foto;
     private String receta;
 
-
-    @ManyToOne
-    @JoinColumn(name = "Rubro_id")
-    private Rubro rubro;
+    @Enumerated(EnumType.STRING)
+    private Tipo tipo;
+    public enum Tipo{
+        MANUFACTURADO, INSUMO;
+    }
 }
