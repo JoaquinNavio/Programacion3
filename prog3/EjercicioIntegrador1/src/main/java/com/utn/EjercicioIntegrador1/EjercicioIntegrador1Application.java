@@ -42,14 +42,23 @@ public class EjercicioIntegrador1Application {
 			//relacion un usuario a muchos pedidos.
 			Usuario user1 = Usuario.builder().nombre("joaco").rol("admin").password("salchipapa").build();
 			Usuario user2 = Usuario.builder().nombre("igna").rol("repartidor").password("repartipapa").build();
+			usuarioRepo.save(user1);
+			usuarioRepo.save(user2);
+			Cliente cliente=Cliente.builder().nombre("pepe").apellido("juancho").build();
+			Cliente cliente2=Cliente.builder().nombre("pepe2").apellido("juancho2").build();
+			clienteRepo.save(cliente);
+			clienteRepo.save(cliente2);
+			Domicilio domicilio=Domicilio.builder().cliente(cliente).calle("eaea").numero("undostres").build();
+			Domicilio domicilio2=Domicilio.builder().cliente(cliente).calle("eaea123123").numero("undostres12312").build();
+			Domicilio domicilio3=Domicilio.builder().cliente(cliente2).calle("dom3").numero("3434").build();
+			domicilioRepo.save(domicilio);
+			domicilioRepo.save(domicilio2);
+			domicilioRepo.save(domicilio3);
 			Pedido pedido1= Pedido.builder().fecha("4 de marzo").horaEstimadaEntrega("6").estado(Pedido.Estado.INICIADO).tipoEnvio(Pedido.TipoEnvio.DELIVERY).total(500).build();
 			Pedido pedido2= Pedido.builder().fecha("6 de marzo").horaEstimadaEntrega("7").estado(Pedido.Estado.PREPARACION).tipoEnvio(Pedido.TipoEnvio.DELIVERY).total(900).build();
 			Pedido pedido3= Pedido.builder().fecha("6 de marzo").horaEstimadaEntrega("8").estado(Pedido.Estado.PREPARACION).tipoEnvio(Pedido.TipoEnvio.RETIRA).total(200).build();
-			user2.agregarPedido(pedido1);
-			user2.agregarPedido(pedido2);
-			user2.agregarPedido(pedido3);
-			usuarioRepo.save(user1);
-			usuarioRepo.save(user2);
+
+
 			//relacion una factura al pedido
 			Factura factura= Factura.builder().formaPago(Factura.FormaPago.EFECTIVO).fecha("hoy").total(22).build();
 			pedido1.setFactura(factura);
@@ -77,31 +86,35 @@ public class EjercicioIntegrador1Application {
 
 			pedido1.agregarDetallePedido(detalleP);
 			pedido1.agregarDetallePedido(detalleP2);
-
-
-
-			Domicilio domicilio=Domicilio.builder().calle("eaea").numero("undostres").build();
-			Domicilio domicilio2=Domicilio.builder().calle("eaea123123").numero("undostres12312").build();
-			Domicilio domicilio3=Domicilio.builder().calle("dom3").numero("3434").build();
-
-
-			Cliente cliente=Cliente.builder().nombre("pepe").apellido("juancho").build();
-			Cliente cliente2=Cliente.builder().nombre("pepe2").apellido("juancho2").build();
-			cliente.agregarDomicilio(domicilio);
-			cliente.agregarDomicilio(domicilio2);
-			cliente.agregarDomicilio(domicilio3);
-			clienteRepo.save(cliente);
-			clienteRepo.save(cliente2);
-
-
-
-			pedido1.setCliente(cliente2);
-			pedido1.setDomicilio(domicilio2);
-
-			pedido2.setCliente(cliente);
-			pedido2.setDomicilio(domicilio3);
 			pedidoRepo.save(pedido1);
 			pedidoRepo.save(pedido2);
+			pedidoRepo.save(pedido3);
+
+
+
+
+			user2.agregarPedido(pedido1);
+			user2.agregarPedido(pedido2);
+			user2.agregarPedido(pedido3);
+			domicilio.agregarPedido(pedido1);
+			domicilio.agregarPedido(pedido2);
+			domicilio3.agregarPedido(pedido3);
+			cliente.agregarPedido(pedido1);
+			cliente2.agregarPedido(pedido2);
+			usuarioRepo.save(user1);
+			usuarioRepo.save(user2);
+			clienteRepo.save(cliente);
+			clienteRepo.save(cliente2);
+			domicilioRepo.save(domicilio);
+			domicilioRepo.save(domicilio2);
+			domicilioRepo.save(domicilio3);
+
+
+
+
+
+
+
 
 		};
 

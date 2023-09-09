@@ -23,8 +23,8 @@ public class Cliente extends BaseEntidad{
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true,fetch = FetchType.EAGER)
     @JoinColumn(name = "cliente_id")
     @Builder.Default
-    private List<Domicilio> domicilios=new ArrayList<>();
-    public void agregarDomicilio(Domicilio dom){
-        domicilios.add(dom);
+    private List<Pedido> pedidos=new ArrayList<>();
+    public void agregarPedido(Pedido ped){
+        pedidos.add(ped);
     }
 }
