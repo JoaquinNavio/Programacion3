@@ -19,7 +19,7 @@ public class Usuario  extends BaseEntidad{
     private String password;
     private String rol;
 
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true,fetch = FetchType.EAGER)
+    @OneToMany(cascade = CascadeType.REFRESH, orphanRemoval = true,fetch = FetchType.EAGER)
     @JoinColumn(name = "usuario_id")
     @Builder.Default
     private List<Pedido> pedidos=new ArrayList<>();

@@ -23,6 +23,7 @@ public class Pedido  extends BaseEntidad{
     @Enumerated(EnumType.STRING)
     private TipoEnvio tipoEnvio;
     private double total;
+
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true,fetch = FetchType.EAGER)
     @JoinColumn(name = "pedido_id")
     @Builder.Default

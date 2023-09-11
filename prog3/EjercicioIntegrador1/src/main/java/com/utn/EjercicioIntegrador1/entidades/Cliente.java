@@ -20,7 +20,7 @@ public class Cliente extends BaseEntidad{
     private String telefono;
     private String email;
 
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true,fetch = FetchType.EAGER)
+    @OneToMany(cascade = CascadeType.REFRESH, orphanRemoval = true,fetch = FetchType.EAGER)
     @JoinColumn(name = "cliente_id")
     @Builder.Default
     private List<Pedido> pedidos=new ArrayList<>();
