@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8093ce13-1929-41b8-a68e-d61c4e37c949" name="Changes" comment="" />
+    <list default="true" id="8093ce13-1929-41b8-a68e-d61c4e37c949" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../controller/src/main/java/com/utn/controller/repositories/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller/src/main/java/com/utn/controller/controllers/PersonaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../controller/src/main/java/com/utn/controller/controllers/PersonaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller/src/main/java/com/utn/controller/entities/BaseEntidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../controller/src/main/java/com/utn/controller/entities/BaseEntidad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller/src/main/java/com/utn/controller/entities/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../controller/src/main/java/com/utn/controller/entities/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../controller/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +45,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2V2L9wF5jgQ46x3ukgsYGrwGZRg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,7 +57,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/joaco/OneDrive/Escritorio/Tareas/Programacion3/prog3/ejer01"
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/joaco/OneDrive/Escritorio/Tareas/Programacion3/prog3/ejer01",
+    "spring.configuration.checksum": "7b0bb6c2164a6918ce8c833452dad865",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,7 +72,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694029080834</updated>
+      <workItem from="1694616656271" duration="16000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
