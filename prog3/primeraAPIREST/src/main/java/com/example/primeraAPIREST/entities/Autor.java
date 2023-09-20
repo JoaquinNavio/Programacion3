@@ -1,24 +1,22 @@
 package com.example.primeraAPIREST.entities;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.envers.Audited;
 
-import java.io.Serializable;
-
 @Entity
-@Table(name="persona")
+@Table(name="autor")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
 @Audited
-public class Persona extends Base {
-
+public class Autor extends Base{
     private String nombre;
     private String apellido;
-    private int dni;
+    private String biografia;
 }
