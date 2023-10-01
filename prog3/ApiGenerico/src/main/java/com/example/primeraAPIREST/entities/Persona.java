@@ -19,20 +19,20 @@ import java.util.List;
 @Audited
 public class Persona extends Base {
 
+    private String appellido;
     private String nombre;
-    private String apellido;
     private int dni;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "fk_domicilio")
     private Domicilio domicilio;
 
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(cascade = CascadeType.ALL,orphanRemoval = true)//orphanRemovel eliminamos persona y sus libros asociados
     @JoinTable(
             name = "persona_libro",
             joinColumns = @JoinColumn(name = "persona_id"),
             inverseJoinColumns = @JoinColumn(name = "libro_id")
     )
-    private List<Libro> libros= new ArrayList<Libro>();
+    private List<Libro> libros = new ArrayList<Libro>();
 
 }

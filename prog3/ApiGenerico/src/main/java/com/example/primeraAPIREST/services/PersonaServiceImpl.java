@@ -18,28 +18,4 @@ public class PersonaServiceImpl extends BaseServiceImpl<Persona,Long> implements
         this.personaRepository = personaRepository;
     }
 
-    @Override
-    public List<Persona> findAll() throws Exception {
-        return null;
-    }
-
-    @Override
-    public Persona findById(Long aLong) throws Exception {
-        return null;
-    }
-
-    @Override
-    public Persona save(Persona entity) throws Exception {
-        return null;
-    }
-
-    @Override
-    public Persona update(Long aLong, Persona entity) throws Exception {
-        return null;
-    }
-
-    @Override
-    public boolean delete(Long aLong) throws Exception {
-        return false;
-    }
 }

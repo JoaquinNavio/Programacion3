@@ -16,28 +16,4 @@ public class AutorServiceImpl extends BaseServiceImpl <Autor,Long> implements Au
         super(baseRepository);
     }
 
-    @Override
-    public List<Autor> findAll() throws Exception {
-        return null;
-    }
-
-    @Override
-    public Autor findById(Long aLong) throws Exception {
-        return null;
-    }
-
-    @Override
-    public Autor save(Autor entity) throws Exception {
-        return null;
-    }
-
-    @Override
-    public Autor update(Long aLong, Autor entity) throws Exception {
-        return null;
-    }
-
-    @Override
-    public boolean delete(Long aLong) throws Exception {
-        return false;
-    }
 }
