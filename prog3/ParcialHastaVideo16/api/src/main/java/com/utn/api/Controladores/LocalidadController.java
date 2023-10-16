@@ -1,9 +1,7 @@
-package com.example.primeraAPIREST.controllers;
+package com.utn.api.Controladores;
 
-import com.example.primeraAPIREST.entities.Autor;
-import com.example.primeraAPIREST.entities.Localidad;
-import com.example.primeraAPIREST.services.AutorServiceImpl;
-import com.example.primeraAPIREST.services.LocalidadServiceImpl;
+import com.utn.api.Entidades.Localidad;
+import com.utn.api.Servicios.LocalidadServiceImpl;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

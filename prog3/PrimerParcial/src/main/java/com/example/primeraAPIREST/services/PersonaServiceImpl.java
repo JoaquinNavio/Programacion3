@@ -18,4 +18,15 @@ public class PersonaServiceImpl extends BaseServiceImpl<Persona,Long> implements
         this.personaRepository = personaRepository;
     }
 
+    @Override
+    public List<Persona> search(String filtro) throws Exception {
+        try{
+            //List<Persona> personas = personaRepository.findByNombreContainingOrAppellidoContaining(filtro,filtro);
+            List<Persona> personas = personaRepository.search(filtro);
+            return personas;
+        }catch (Exception e){
+            throw new Exception(e.getMessage());
+        }
+
+    }
 }
