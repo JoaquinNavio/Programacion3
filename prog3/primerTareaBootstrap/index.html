@@ -9,11 +9,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <style>
-      .carousel-item img {
-        height: 800px;
-      }
-    </style>
+  <style>
+    .carousel-item img {
+      height: 800px;
+    }
+  </style>
 </head>
 
 <body>
@@ -24,10 +24,10 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item" style="margin-right: 40px">
-            <a class="nav-link active" aria-current="page" href="#" >Casita</a>
+            <a class="nav-link active" aria-current="page" href="#">Casita</a>
           </li>
           <li class="nav-item" style="margin-right: 40px">
             <a class="nav-link" href="#">Links</a>
@@ -54,8 +54,8 @@
     </div>
   </nav>
 
-  
-  <div id="carouselExample" class="carousel slide" >
+
+  <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img
@@ -83,169 +83,218 @@
     </button>
   </div>
 
-
+  <!--botones por hacer hecho y eso-->
   <section class="container" id="selector-categorias">
     <h1 style="text-align: center; font-size: 80px;">Seleccionar categoria</h1>
-    
+
     <div class="row gap-4">
-      
-      <div class="col d-flex justify-content-center p-0" style="background-color: black;" >
-        <a href="#Por hacer" class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
-          <img 
-            src="https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-            alt=" Por hacer"
-            style=" height: 95px;"
-          >
-          <span class="fs-4 text-dark-emphasis " style="font-size: 30px !important;color: white !important">Por hacer</span>
+
+      <div class="col d-flex justify-content-center p-0" style="background-color: black;">
+        <a href="#porHacer"
+          class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
+          <img
+            src="https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=" Por hacer" style=" height: 95px;">
+          <span class="fs-4 text-dark-emphasis " style="font-size: 30px !important;color: white !important">Por
+            hacer</span>
+        </a>
+      </div>
+
+      <div class="col d-flex justify-content-center p-0" style="background-color: black;">
+        <a href="#EnProducción"
+          class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
+          <img
+            src="https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=" En Producción" style="height: 95px;">
+          <span class="fs-4 text-dark-emphasis" style="font-size: 30px !important;color: white !important"> En
+            Producción</span>
         </a>
       </div>
       <div class="col d-flex justify-content-center p-0" style="background-color: black;">
-        <a href="#EnProducción" class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none" >
-          <img 
-            src="https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-            alt=" En Producción"
-            style="height: 95px;"
-          >
-          <span class="fs-4 text-dark-emphasis"style="font-size: 30px !important;color: white !important"> En Producción</span>
+        <a href="#PorTestear"
+          class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
+          <img
+            src="https://images.pexels.com/photos/163016/crash-test-collision-60-km-h-distraction-163016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Por Testear" style="height: 95px;">
+          <span class="fs-4 text-dark-emphasis" style="font-size: 30px !important;color: white !important">Por
+            Testear</span>
         </a>
       </div>
       <div class="col d-flex justify-content-center p-0" style="background-color: black;">
-        <a href="#PorTestear" class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
-          <img 
-            src="https://images.pexels.com/photos/163016/crash-test-collision-60-km-h-distraction-163016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-            alt="Por Testear"
-            style="height: 95px;"
-          >
-          <span class="fs-4 text-dark-emphasis" style="font-size: 30px !important;color: white !important">Por Testear</span>
-        </a>
-      </div>
-      <div class="col d-flex justify-content-center p-0" style="background-color: black;">
-        <a href="#Completada" class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
-          <img 
-            src="https://images.pexels.com/photos/327533/pexels-photo-327533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-            alt="Completada"
-            style="height: 95px;"
-          >
-          <span class="fs-4 text-dark-emphasis" style="font-size: 30px !important;color: white !important">Completada</span>
+        <a href="#Completada"
+          class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
+          <img
+            src="https://images.pexels.com/photos/327533/pexels-photo-327533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Completada" style="height: 95px;">
+          <span class="fs-4 text-dark-emphasis"
+            style="font-size: 30px !important;color: white !important">Completada</span>
         </a>
       </div>
     </div>
   </section>
 
+  <!--tarjetas de las tareas-->
+  <div class="row">
 
-  <div class="row" >
-    <div class="row col-4" style="border: solid 3px black; margin:auto; padding: auto; max-width: 33%; height: 350px;">
-      <div class="col-md-4">
-        <img src="./img/facu.jpeg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h1 class="card-title">ID 1</h1>
-          <h2>Desarrollar landing page</h2>
-          <h4>
-            Descripción: Crear el diseño visual y la estructura de la interfaz de usuario del sitio web.<br>
-            Tiempo Aproximado: 2-4 semanas<br>
-            Persona Responsable: Diseñador UI/UX<br>
-            Estado Actual: En progreso</h4>
-          <a href="#" class="btn btn-primary">Ir a la tarea</a>
+    <section id="porHacer">
+      <h1 style="text-align: center;margin: 30px;">Por hacer</h1>
+    </section>
+
+    <div id="contenedor-hacer">
+      <div class="row col-4"
+        style="border: solid 3px black; margin:auto; padding: auto; max-width: 33%; height: 350px; overflow: auto;">
+        <div class="col-md-4">
+          <img src="./img/facu.jpeg" class="img-fluid rounded-start" alt="..." style="height: 350px;width: 250px;">
         </div>
-      </div>
-    </div>
-    <div class="row col-4" style="border: solid 3px black; margin:auto; padding: auto; max-width: 33%; height: 350px;">
-      <div class="col-md-4">
-        <img src="./img/yo.jpeg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h1 class="card-title">ID 2</h1>
-          <h2>Desarrollo Front-end</h2>
-          <h4>
-            Descripción: Escribir código HTML, CSS y JavaScript para implementar el diseño en el navegador.<br>
-            Tiempo Aproximado: 6-8 semanas<br>
-            Persona Responsable: Desarrollador Front-end<br>
-            Estado Actual: En revisión</h4>
-          <a href="#" class="btn btn-primary">Ir a la tarea</a>
-        </div>
-      </div>
-    </div>
-    <div class="row col-4" style="border: solid 3px black; margin:auto; padding: auto; max-width: 33%; height: 350px;">
-      <div class="col-md-4">
-        <img src="./img/WhatsApp Image 2023-10-23 at 17.05.29.jpeg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h1 class="card-title">ID 3</h1>
-          <h2>Desarrollo Back-end</h2>
-          <h4>
-            Descripción: Crear la lógica del servidor, la base de datos y las funcionalidades del sitio web.<br>
-            Tiempo Aproximado: 8-12 semanas<br>
-            Persona Responsable: Desarrollador Back-end<br>
-            Estado Actual: En desarrollo</h4>
-          <a href="#" class="btn btn-primary">Ir a la tarea</a>
-        </div>
-      </div>
-    </div>
-    <div class="row col-4" style="border: solid 3px black; margin:auto; padding: auto; max-width: 33%; height: 350px;">
-      <div class="col-md-4">
-        <img src="./img/seba.jpeg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h1 class="card-title">ID 4</h1>
-          <h2>Pruebas y Depuración</h2>
-          <h4>
-            Descripción: Realizar pruebas exhaustivas para identificar y corregir errores y problemas de
-            funcionamiento.<br>
-            Tiempo Aproximado: 2-4 semanas<br>
-            Persona Responsable: Equipo de Control de Calidad<br>
-            Estado Actual: En curso</h4>
-          <a href="#" class="btn btn-primary">Ir a la tarea</a>
-        </div>
-      </div>
-    </div>
-    <div class="row col-4" style="border: solid 3px black; margin:auto; padding: auto; max-width: 33%; height: 350px;">
-      <div class="col-md-4">
-        <img src="./img/igna.jpeg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h1 class="card-title">ID 5</h1>
-          <h2>Contenido y Carga de Datos</h2>
-          <h4>
-            Descripción: Agregar contenido, imágenes y datos al sitio web de acuerdo con las necesidades del
-            proyecto.<br>
-            Tiempo Aproximado: 2-4 semanas<br>
-            Persona Responsable: Editor de Contenidos<br>
-            Estado Actual: En proceso de carga</h4>
-          <a href="#" class="btn btn-primary">Ir a la tarea</a>
-        </div>
-      </div>
-    </div>
-    <div class="row col-4" style="border: solid 3px black; margin:auto; padding: auto; max-width: 33%; height: 350px;">
-      <div class="col-md-4">
-        <img src="./img/gino.jpeg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h1 class="card-title">ID 6</h1>
-          <h2>Lanzamiento y Despliegue</h2>
-          <h4>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="card-title">ID 1</h1>
+            <h2>Desarrollar landing page</h2>
             <h4>
-              Descripción: Preparar el sitio web para su lanzamiento público, configurando servidores y dominios.<br>
-              Tiempo Aproximado: 1-2 semanas<br>
-              Persona Responsable: Administrador de Sistemas<br>
-              Estado Actual: En planificación</h4>
+              Descripción: Crear el diseño visual y la estructura de la interfaz de usuario del sitio web.<br>
+              Tiempo Aproximado: 2-4 semanas<br>
+              Persona Responsable: Diseñador UI/UX<br>
+              Estado Actual: Por hacer</h4>
             <a href="#" class="btn btn-primary">Ir a la tarea</a>
+          </div>
         </div>
       </div>
+    </div>
+
+    <section id="EnProducción">
+      <h1 style="text-align: center;margin: 30px;">En Produccion</h1>
+    </section>
+
+    <div id="contenedor-produccion">
+
+      <div class="row col-4"
+        style="border: solid 3px black; margin:auto; padding: auto; max-width: 33%; height: 350px;overflow: auto; ">
+        <div class="col-md-4">
+          <img src="./img/yo.jpeg" class="img-fluid rounded-start" alt="..." style="height: 350px;width: 250px;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="card-title">ID 2</h1>
+            <h2>Desarrollo Front-end</h2>
+            <h4>
+              Descripción: Escribir código HTML, CSS y JavaScript para implementar el diseño en el navegador.<br>
+              Tiempo Aproximado: 6-8 semanas<br>
+              Persona Responsable: Desarrollador Front-end<br>
+              Estado Actual: En produccion</h4>
+            <a href="#" class="btn btn-primary">Ir a la tarea</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row col-4"
+        style="border: solid 3px black; margin:auto; padding: auto; max-width: 33%; height: 350px; overflow: auto;">
+        <div class="col-md-4">
+          <img src="./img/WhatsApp Image 2023-10-25 at 09.34.22.jpeg" class="img-fluid rounded-start" alt="..." style="height: 350px;width: 250px;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="card-title">ID 3</h1>
+            <h2>Desarrollo Back-end</h2>
+            <h4>
+              Descripción: Crear la lógica del servidor, la base de datos y las funcionalidades del sitio web.<br>
+              Tiempo Aproximado: 8-12 semanas<br>
+              Persona Responsable: Desarrollador Back-end<br>
+              Estado Actual: En produccion</h4>
+            <a href="#" class="btn btn-primary">Ir a la tarea</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row col-4"
+        style="border: solid 3px black; margin:auto; padding: auto; max-width: 33%; height: 350px; overflow: auto;">
+        <div class="col-md-4">
+          <img src="./img/seba.jpeg" class="img-fluid rounded-start" alt="..." style="height: 350px;width: 250px;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="card-title">ID 4</h1>
+            <h2>Pruebas y Depuración</h2>
+            <h4>
+              Descripción: Realizar pruebas exhaustivas para identificar y corregir errores y problemas de
+              funcionamiento.<br>
+              Tiempo Aproximado: 2-4 semanas<br>
+              Persona Responsable: Equipo de Control de Calidad<br>
+              Estado Actual: En produccion</h4>
+            <a href="#" class="btn btn-primary">Ir a la tarea</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="PorTestear">
+      <h1 style="text-align: center; margin: 30px;">En Testeo</h1>
+    </section>
+
+    <div id="contenedor-testear">
+      <div class="row col-4"
+        style="border: solid 3px black; margin:auto; padding: auto; max-width: 33%; height: 350px; overflow: auto;">
+        <div class="col-md-4">
+          <img src="./img/igna.jpeg" class="img-fluid rounded-start" alt="..." style="height: 350px;width: 250px;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="card-title">ID 5</h1>
+            <h2>Contenido y Carga de Datos</h2>
+            <h4>
+              Descripción: Agregar contenido, imágenes y datos al sitio web de acuerdo con las necesidades del
+              proyecto.<br>
+              Tiempo Aproximado: 2-4 semanas<br>
+              Persona Responsable: Editor de Contenidos<br>
+              Estado Actual: En testeo</h4>
+            <a href="#" class="btn btn-primary">Ir a la tarea</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row col-4"
+        style="border: solid 3px black; margin:auto; padding: auto; max-width: 33%; height: 350px; overflow: auto;">
+        <div class="col-md-4">
+          <img src="./img/gino.jpeg" class="img-fluid rounded-start" alt="..." style="height: 350px;width: 250px;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="card-title">ID 6</h1>
+            <h2>Lanzamiento y Despliegue</h2>
+            <h4>
+              <h4>
+                Descripción: Preparar el sitio web para su lanzamiento público, configurando servidores y dominios.<br>
+                Tiempo Aproximado: 1-2 semanas<br>
+                Persona Responsable: Administrador de Sistemas<br>
+                Estado Actual: En testeo</h4>
+              <a href="#" class="btn btn-primary">Ir a la tarea</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="Completada">
+      <h1 style="text-align: center; margin: 30px;">Tarea Completada</h1>
+    </section>
+    <div id="contenedor-Completada">
+
+
     </div>
   </div>
+
+
+
+
 
   <!--cdn bootstrap js-->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+
+  <!--JAVASCRIPT-->
+  <script type="module" src="lib/pages/home.js"></script>
+
+
 </body>
 
 </html>
