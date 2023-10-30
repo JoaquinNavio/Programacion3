@@ -1,0 +1,94 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Desarrollar landing page",
+      "author": "Sofía Pérez",
+      "description": "Descripción: Crear el diseño visual y la estructura de la interfaz de usuario del sitio web.",
+      "time": "Tiempo Aproximado: 2-4 semanas",
+      "state": "Estado Actual: Por hacer",
+      "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 2,
+      "title": "Diseñar logotipo",
+      "author": "Carlos Rodríguez",
+      "description": "Descripción: Crear un logotipo atractivo y representativo para el sitio web.",
+      "time": "Tiempo Aproximado: 1-2 semanas",
+      "state": "Estado Actual: En producción",
+      "img": "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 3,
+      "title": "Desarrollar página de inicio",
+      "author": "Laura Smith",
+      "description": "Descripción: Crear la página de inicio del sitio web con contenido atractivo.",
+      "time": "Tiempo Aproximado: 2-3 semanas",
+      "state": "Estado Actual: En producción",
+      "img": "https://images.pexels.com/photos/4147376/pexels-photo-4147376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 4,
+      "title": "Crear sección de servicios",
+      "author": "Juan Pérez",
+      "description": "Descripción: Desarrollar una sección que describa los servicios ofrecidos.",
+      "time": "Tiempo Aproximado: 2-3 semanas",
+      "state": "Estado Actual: Por testear",
+      "img": "https://images.pexels.com/photos/2927773/pexels-photo-2927773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 5,
+      "title": "Agregar formularios de contacto",
+      "author": "Marta García",
+      "description": "Descripción: Implementar formularios de contacto para que los visitantes puedan comunicarse.",
+      "time": "Tiempo Aproximado: 1-2 semanas",
+      "state": "Estado Actual: Por testear",
+      "img": "https://images.pexels.com/photos/3536067/pexels-photo-3536067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 6,
+      "title": "Optimizar para dispositivos móviles",
+      "author": "Daniel Anderson",
+      "description": "Descripción: Asegurarse de que el sitio web se vea bien y funcione en dispositivos móviles.",
+      "time": "Tiempo Aproximado: 2-3 semanas",
+      "state": "Estado Actual: Por testear",
+      "img": "https://images.pexels.com/photos/2643043/pexels-photo-2643043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 7,
+      "title": "Configurar SEO básico",
+      "author": "Isabel Ramírez",
+      "description": "Descripción: Realizar configuraciones iniciales de SEO para mejorar la visibilidad en buscadores.",
+      "time": "Tiempo Aproximado: 1-2 semanas",
+      "state": "Estado Actual: Finalizado",
+      "img": "https://images.pexels.com/photos/7870736/pexels-photo-7870736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 8,
+      "title": "Integrar redes sociales",
+      "author": "Alejandro Torres",
+      "description": "Descripción: Agregar enlaces y funciones de compartir en redes sociales.",
+      "time": "Tiempo Aproximado: 1-2 semanas",
+      "state": "Estado Actual: Finalizado",
+      "img": "https://images.pexels.com/photos/10433964/pexels-photo-10433964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 9,
+      "title": "Pruebas y correcciones",
+      "author": "Lucía Martínez",
+      "description": "Descripción: Realizar pruebas exhaustivas y corregir cualquier error o problema.",
+      "time": "Tiempo Aproximado: 2-3 semanas",
+      "state": "Estado Actual: Finalizado",
+      "img": "https://images.pexels.com/photos/13203242/pexels-photo-13203242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 10,
+      "title": "Lanzamiento del sitio",
+      "author": "Javier López",
+      "description": "Descripción: Preparar el sitio web para su lanzamiento oficial.",
+      "time": "Tiempo Aproximado: 1 semana",
+      "state": "Estado Actual: Finalizado",
+      "img": "https://images.pexels.com/photos/4006697/pexels-photo-4006697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
+}

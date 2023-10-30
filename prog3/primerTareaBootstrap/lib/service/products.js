@@ -1,5 +1,5 @@
 export function getAllProducts(){
-    return fetch('https://fakestoreapi.com/products')
+    return fetch('http://localhost:3000/tasks')
             .then(res=>res.json())
             .then(json=>json)
 }
