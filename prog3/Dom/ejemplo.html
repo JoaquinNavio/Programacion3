@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang=" en">
+
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ejemplo.css">
+    <title>Prueba</title>
+    <script defer src='./ejemplo.js'></script> <!--DOM cargado-->
+</head>
+
+<body>
+    <header id='header' class='border-grey'>
+        <h1>Mi web/blog para trastear con el DOM</h1>
+    </header>
+    <nav class='border-grey'>
+        <ul>
+            <li><a href="#">LINK 1</a></li>
+            <li><a href="#">LINK 2</a></li>
+            <li><a href="#">LINK 3</a></li>
+        </ul>
+    </nav>
+    <!--Comentarios-->
+    <main>
+
+        <section id="section" class='border-grey'>
+            <h2 id='titulo2'>Formulario de registro</h2>
+            <form id="formulario" class='border-grey register-form'>
+                <input type="text" name='name' placeholder="Nombre" />
+                <input type="text" name='email' placeholder="Email" />
+                <input type="password" name='password' placeholder="Contraseña" />
+                <button>Registrarme</button>
+            </form>
+        </section>
+
+        <!--beforebegin-->
+        <section class=" border-grey">
+            <!--afterbegin-->
+            <h2>Blog</h2>
+            <article class='border-grey'>
+
+                <h3>Artículo 1</h3>
+                <p>Probando texto</p>
+            </article>
+            <!--beforeen o appendChild-->
+
+
+            <article class='border-grey'>
+                <h3>Artículo 2</h3>
+                <p>Probando texto</p>
+            </article>
+
+
+            <article class='border-grey'>
+                <h3>Artículo 3</h3>
+                <p>Probando texto</p>
+            </article>
+
+        </section>
+        <!-- afterend-->
+    </main>
+    <footer class='border-grey'>
+        <p>2023 Desarrollo útil</p>
+    </footer>
+</body>
+
+</html>
